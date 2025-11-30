@@ -6,8 +6,18 @@ import styles from './HomePage.module.css'
 import iconUrl from '../assets/icon.png';
 import {Button} from "antd";
 import MySearchInput from "../components/MySearchInput.tsx";
+import {useNavigate} from "react-router-dom";
 
 export default function HomePage() {
+    /**
+     * 跳转到新建笔记页面
+     */
+    const navigate = useNavigate()
+
+    const navigateAddNote = () => {
+        navigate('/addnote')
+    }
+
     return (
         <div id={styles.homePage} >
                 {/*顶部头部栏*/}
@@ -20,7 +30,7 @@ export default function HomePage() {
                     <div className={styles.right}>
                         {/*搜索组件*/}
                         <MySearchInput/>
-                        <Button type={"primary"}>新建笔记</Button>
+                        <Button type={"primary"} onClick={navigateAddNote}>新建笔记</Button>
                     </div>
                 </div>
 

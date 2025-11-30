@@ -3,6 +3,7 @@ import App from "../App.tsx";
 import DocPage from "../pages/DocPage.tsx";
 import CanvasPage from "../pages/CanvasPage.tsx";
 import HomePage from "../pages/HomePage.tsx";
+import AddNotePage from "../pages/AddNotePage.tsx";
 
 
 export const router = createBrowserRouter([
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             {
                 path:'canvas',
                 element:<CanvasPage/>
+            },
+            {
+                path:'addnote',
+                element:<AddNotePage/>
             },
 
         ]
