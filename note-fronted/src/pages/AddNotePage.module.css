@@ -4,3 +4,74 @@
     height: 100vh;
     padding: 24px;
 }
+
+.header {
+    padding: 0 15%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+.leftarr {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 28px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+.leftarr:hover {
+    cursor: pointer;
+    background: #eaeaea;
+}
+
+.main {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.title {
+    font-size: 32px;
+}
+
+.selectBox {
+   margin-top: 32px;
+   display: flex;
+   gap: 16px;
+}
+
+.selectItem {
+    width: 260px;
+    height: 68px;
+    border-radius: 8px;
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.selectItem:hover {
+    background: #b2b2b2;
+}
+
+.itemTitle {
+    font-size: 24px;
+}
+
+.itemSubTitle {
+    color: #232323;
+}
