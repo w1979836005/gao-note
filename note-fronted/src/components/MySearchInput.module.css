@@ -1,0 +1,9 @@
+.myInput {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
