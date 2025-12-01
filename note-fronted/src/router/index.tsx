@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
         errorElement: <div>页面出错了！！！</div>,
         children:[
             {
-                path:'home',
+                index:true,
                 element:<HomePage/>
             },
             {

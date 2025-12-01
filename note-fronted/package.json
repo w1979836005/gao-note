@@ -11,6 +11,11 @@
   },
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
+    "@milkdown/kit": "^7.17.2",
+    "@milkdown/plugin-block": "^7.17.2",
+    "@milkdown/preset-commonmark": "^7.17.2",
+    "@milkdown/react": "^7.17.2",
+    "@milkdown/theme-nord": "^7.17.2",
     "antd": "^6.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
